@@ -1,0 +1,18 @@
+{
+  "name": "fivem-solid-nui",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "iconify-icon": "^3.0.2",
+    "solid-js": "^1.9.0",
+    "solid-motionone": "^1.0.4"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0",
+    "vite-plugin-solid": "^2.11.12"
+  }
+}

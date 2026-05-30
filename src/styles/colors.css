@@ -1,0 +1,140 @@
+
+
+.blur {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: var(--blur);
+}
+
+.blur2 {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: var(--blur2);
+}
+
+:root {
+
+    --blur: url('/public/blur.png');
+    --blur2: url('/public/blur2.png');
+
+/* PRIMARY */
+    --color-primary: #CAFF02;
+    --color-primary-hover: #C8F20D;
+    --color-primary-active: #98BE00;
+
+    /* REWARD / MONEY */
+    --color-gold: #D6B800;
+    --color-gold-dark: #B39500;
+
+    /* BACKGROUNDS */
+    --color-bg: #E9EEF4;
+    --color-bg-secondary: #DCE3EB;
+    --color-bg-tertiary: #CFD7E0;
+
+    /* PANELS */
+    --color-surface: #FFFFFF;
+    --color-surface-light: #F5F7FA;
+    --color-surface-dark: #D7DEE6;
+
+    /* BORDERS */
+    --color-border: #BCC4CE;
+    --color-border-strong: #99A3AF;
+
+    /* TEXT */
+    --color-text: #101010;
+    --color-text-secondary: #333333;
+    --color-text-muted: #666666;
+    --color-text-disabled: #999999;
+
+    /* TEXT ON PRIMARY */
+    --color-text-on-primary: #000000;
+
+    /* STATES */
+    --color-success: #32B64D;
+    --color-warning: #D79B00;
+    --color-danger: #D94B4B;
+    --color-info: #3E98D8;
+
+    /* STARS */
+    --color-star: #F4CF58;
+    --color-star-border: #AA8B00;
+
+    /* PROGRESS BAR */
+    --color-progress-bg: #BFC6CF;
+    --color-progress-fill: #B5E000;
+
+    /* OVERLAYS */
+    --color-overlay-light: rgba(0,0,0,.04);
+    --color-overlay-medium: rgba(0,0,0,.08);
+    --color-overlay-strong: rgba(0,0,0,.15);
+
+    /* SHADOWS */
+    --shadow-primary:
+        0 0 12px rgba(181,224,0,.25);
+
+    --shadow-card:
+        0 8px 30px rgba(0,0,0,.15);
+
+}
+
+:root[data-theme="dark"] {
+    /* PRIMARY */
+    --color-primary: #C8FF00;
+    --color-primary-hover: #D8FF3D;
+    --color-primary-active: #B3E600;
+
+    /* REWARD / MONEY */
+    --color-gold: #FFE100;
+    --color-gold-dark: #D6BE00;
+
+    /* BACKGROUNDS */
+    --color-bg: #101010;
+    --color-bg-secondary: #181818;
+    --color-bg-tertiary: #222222;
+
+    /* PANELS */
+    --color-surface: #2A2A2A;
+    --color-surface-light: #6E7783;
+    --color-surface-dark: #1C1C1C;
+
+    /* BORDERS */
+    --color-border: #3D3D3D;
+    --color-border-strong: #5B5B5B;
+
+    /* TEXT */
+    --color-text: #FFFFFF;
+    --color-text-secondary: #D8D8D8;
+    --color-text-muted: #A4A4A4;
+    --color-text-disabled: #727272;
+
+    /* TEXT ON PRIMARY */
+    --color-text-on-primary: #000000;
+
+    /* STATES */
+    --color-success: #6DFF1D;
+    --color-warning: #FFC800;
+    --color-danger: #FF4D4D;
+    --color-info: #4DB8FF;
+
+    /* STARS */
+    --color-star: #FFE06B;
+    --color-star-border: #A98D00;
+
+    /* PROGRESS BAR */
+    --color-progress-bg: #4E4E4E;
+    --color-progress-fill: #C8FF00;
+
+    /* OVERLAYS */
+    --color-overlay-light: rgba(255,255,255,0.05);
+    --color-overlay-medium: rgba(255,255,255,0.10);
+    --color-overlay-strong: rgba(255,255,255,0.20);
+
+    /* SHADOWS */
+    --shadow-primary:
+        0 0 12px rgba(200,255,0,.35);
+
+    --shadow-card:
+        0 8px 30px rgba(0,0,0,.45);
+}
